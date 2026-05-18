@@ -20,7 +20,7 @@ namespace MyConsoleMapleRPG.UI.Screens
             this.player = player;
         }
 
-        public void Show()
+        public void Show() // 사우나 관련 흐름 처리 시작 부분
         {
             view.DrawBase();
             view.DrawPlayerStatus(player);
