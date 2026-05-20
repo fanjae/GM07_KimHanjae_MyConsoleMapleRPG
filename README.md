@@ -40,7 +40,7 @@ ESC : 닫기, 종료
 - 교육 과정과 병행하여 제작
 
 ## Blog
-- 링크 : https://fanjae.tistory.com/229 (추후 최종 프로젝트 정리로 링크 교체 예정)
+- 링크 : https://fanjae.tistory.com/236
 
 ## 플레이 영상
 - 링크 : https://youtu.be/cmpc88eea0M?si=Ztge5liTiqOIKvsg
