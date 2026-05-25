@@ -1,22 +1,67 @@
 # 콘솔 환경에서 구현한 턴제 RPG
 
+<img width="620" height="420" alt="Image" src="https://github.com/user-attachments/assets/d3a8fde3-95b0-4fe6-902c-43c14ff03e5a"/><br>
+
 > C# 환경에서 객체지향 구조를 기반으로 턴제 RPG의 전투, 맵 이동, 인벤토리, 상점, 저장 시스템 등 게임에서 사용되는 다양한 시스템을 구현하는 연습을 하기 위해 제작했습니다.
 > Screen, View, System 계층을 분리하여 입력 처리, 화면 출력, 게임 로직의 책임을 나누는 것을 목표로 하였습니다.
 
-## 주요 기능
-- 콘솔 기반 턴제 RPG
-- 직업 선택(전사, 마법사)로 게임 플레이
-- 기본 공격 및 스킬 공격 처리
-- 레벨업 시스템
-- 상태 이상 처리
-- 랜덤 몬스터 인카운터 형태 전투
-- 보상 및 아이템 드랍 처리
-- 인벤토리 시스템
-- 장비 시스템
-- 맵 이동 시스템
-- 체력 회복 시스템
-- JSON 기반 저장 / 불러오기 시스템
-- 콘솔 UI 렌더링 및 화면별 View / Screen 분리
+## 프로젝트 개요
+
+| 항목 | 내용 |
+|---|---|
+| 프로젝트명 | MyConsoleMapleRPG |
+| 개발 기간 | 2026.05.13 ~ 2026.05.18 |
+| 개발 인원 | 1명 |
+| 개발 환경 | C#, .NET 8 |
+| 실행 환경 | Windows Console |
+| IDE | Visual Studio 2022 |
+
+## 구현 기능
+
+| 항목 | 화면 |  내용 |
+|---|---|---|
+| 전투 시스템 |<img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/d3a8fde3-95b0-4fe6-902c-43c14ff03e5a" /> | 턴 기반 전투, 기본 공격 및 스킬 공격 |
+| 직업 선택 | <img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/b0acfa0e-845e-433e-9d4d-661d855d6ba4" /> | 직업군을 2개 중 1개를 선택해 플레이 가능 |
+| 성장 | <img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/11eceb34-f500-449e-82a5-1ff2c861c5b2" /> | 경험치 획득 및 레벨업 처리 |
+| 아이템 드랍 | <img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/5125654d-0116-4cd5-b278-c2f35c20c32e" /> | 승리 할 때, 아이템 드랍 처리 |
+| 상태 이상 시스템 | <img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/ba720c96-04d2-4177-a362-8b1ff572166a" /> | 보스 몬스터 공격 시 상태 효과 적용 |
+| 장비 | <img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/cde343a4-f0e3-4da1-bedb-67cb03533352" /> | 장비 착용 및 능력치 반영 |
+| 상점 | <img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/b6385679-15ad-482f-8753-28a6c5efb2bb" /> | 아이템 구매 및 판매 |
+| 저장 | <img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/7c1c70e4-6969-4723-83b1-7fac8249791c" /> | JSON 기반 저장 및 불러오기 |
+| 맵 이동 및 인카운팅 전투 | <img width="420" height="300" alt="Image" src="https://github.com/user-attachments/assets/adb4cf63-8e2f-489a-b9c5-7bbee21ffb89" />  | 콘솔 환경에서 맵 이동 및 인카운팅 전투 구현 |
+
+## 조작 방법
+↑ ↓ ← → : 이동 및 메뉴 선택  
+Z : 확인, X : (전투시) 스킬 선택 / 취소, C : 전투 도망  
+I : 인벤토리 열기, S : 저장  
+ESC : 닫기, 종료
+
+## 
+- C#
+- .NET 8.0
+- Windows Console
+- Visual Studio 2022
+
+## 수정 진행중
+
+
+## 실행 방법
+- Visual Studio 2022에서 프로젝트를 열고 빌드 후 실행합니다.
+
+## 개발 목적
+- C# 환경에서 객체지향 구조를 기반으로 턴제 RPG의 전투, 맵 이동, 인벤토리, 상점, 저장 시스템 등 게임에서 사용되는 다양한 시스템을 구현하는 연습을 하기 위해 제작했습니다.
+- Screen, View, System 계층을 분리하여 입력 처리, 화면 출력, 게임 로직의 책임을 나누는 것을 목표로 하였습니다.
+
+## 제작 시기
+- 2026.05.13 ~ 2026.05.18 (약 5일)
+- 교육 과정과 병행하여 제작
+
+## Blog
+- 링크 : https://fanjae.tistory.com/236
+
+## 플레이 영상
+- 링크 : https://youtu.be/cmpc88eea0M?si=Ztge5liTiqOIKvsg
+
 
 
 ## 조작 방법
