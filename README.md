@@ -47,7 +47,7 @@
 | S | 저장 |
 | ESC | 닫기 및 종료 |
 
-## 플레이 영상
+## 플레이 영상 (Youtube)
 [![플레이 영상](https://img.youtube.com/vi/cmpc88eea0M/maxresdefault.jpg)](https://youtu.be/cmpc88eea0M)
 
 ## 개발 기록
