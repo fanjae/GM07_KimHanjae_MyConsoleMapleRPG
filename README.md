@@ -28,6 +28,9 @@ ESC : 닫기, 종료
 - Windows Console
 - Visual Studio 2022
 
+## 수정 진행중
+<img width="762" height="584" alt="Image" src="https://github.com/user-attachments/assets/d3a8fde3-95b0-4fe6-902c-43c14ff03e5a" />
+
 ## 실행 방법
 - Visual Studio 2022에서 프로젝트를 열고 빌드 후 실행합니다.
 
