@@ -15,7 +15,6 @@
 | 개발 환경 | C#, .NET 8 |
 | 실행 환경 | Windows Console |
 | IDE | Visual Studio 2022 |
-| 개발 기록 | https://fanjae.tistory.com/236 |
 
 ## 구현 기능
 
